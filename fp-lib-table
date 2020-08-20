@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name LT6600IS8-2.5PBF)(type Legacy)(uri ${KIPRJMOD}/libs/LT6600IS8-2.5PBF/LT6600IS8-2.5PBF.mod)(options "")(descr ""))
+  (lib (name AD8021ARZ)(type Legacy)(uri ${KIPRJMOD}/libs/AD8021ARZ.mod)(options "")(descr ""))
+)

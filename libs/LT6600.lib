@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# LT6600IS8
+#
+DEF LT6600IS8 U 0 40 Y Y 1 L N
+F0 "U" -189 608 50 H V L BNN
+F1 "LT6600IS8" -232 -885 50 H V L BNN
+F2 "SOIC127P600X175-8N" 0 0 50 H I L BNN
+F3 "LT6600IS8-2.5#PBF" 0 0 50 H I L BNN
+F4 "SO-8 Linear Technology" 0 0 50 H I L BNN
+F5 "https://www.digikey.fr/product-detail/en/linear-technology-analog-devices/LT6600IS8-2.5-PBF/LT6600IS8-2.5-PBF-ND/960985?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F6 "LT6600-2.5 - Very Low Noise, Differential Amplifier and 2.5MHz Lowpass Filter" 0 0 50 H I L BNN
+F7 "Linear Technology/Analog" 0 0 50 H I L BNN
+F8 "LT6600IS8-2.5#PBF-ND" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 -700 500 -700 N
+P 2 0 0 16 -500 500 -500 -700 N
+P 2 0 0 16 500 -700 500 500 N
+P 2 0 0 16 500 500 -500 500 N
+X IN- 1 -700 -200 200 R 40 40 0 0 I
+X VOCM 2 -700 -500 200 R 40 40 0 0 I
+X V+ 3 0 700 200 D 40 40 0 0 W
+X OUT+ 4 700 50 200 L 40 40 0 0 O
+X OUT- 5 700 -200 200 L 40 40 0 0 O
+X V- 6 0 -900 200 U 40 40 0 0 W
+X VMID 7 -700 350 200 R 40 40 0 0 W
+X IN+ 8 -700 50 200 R 40 40 0 0 I
+ENDDRAW
+ENDDEF
+#
+#End Library

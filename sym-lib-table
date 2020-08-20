@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name ltc2386-18)(type Legacy)(uri ${KIPRJMOD}/libs/ltc2386-18.lib)(options "")(descr ""))
+  (lib (name LT6600)(type Legacy)(uri ${KIPRJMOD}/libs/LT6600.lib)(options "")(descr ""))
+  (lib (name SN65LVDS1050PW)(type Legacy)(uri ${KIPRJMOD}/libs/SN65LVDS1050PW/SN65LVDS1050PW.lib)(options "")(descr ""))
+  (lib (name AD9747BCPZ)(type Legacy)(uri ${KIPRJMOD}/libs/AD9747BCPZ.lib)(options "")(descr ""))
+  (lib (name ADI)(type Legacy)(uri ${KIPRJMOD}/libs/ADI.lib)(options "")(descr ""))
+)
