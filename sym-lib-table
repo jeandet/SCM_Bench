@@ -5,4 +5,5 @@
   (lib (name AD9747BCPZ)(type Legacy)(uri ${KIPRJMOD}/libs/AD9747BCPZ.lib)(options "")(descr ""))
   (lib (name ADI)(type Legacy)(uri ${KIPRJMOD}/libs/ADI.lib)(options "")(descr ""))
   (lib (name ICE40)(type Legacy)(uri ${KIPRJMOD}/libs/ICE40.lib)(options "")(descr ""))
+  (lib (name TPS6240x)(type Legacy)(uri ${KIPRJMOD}/libs/TPS6240x.lib)(options "")(descr ""))
 )

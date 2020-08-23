@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 16
+Sheet 1 17
 Title "SCM Bench"
 Date "2020-03-04"
 Rev "1.1"
@@ -14,10 +14,10 @@ Comment3 "alexis.jeandet@member.fsf.org"
 Comment4 "Alexis Jeandet"
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J101
+L Connector_Generic:Conn_02x20_Odd_Even J107
 U 1 1 5F1FFABE
 P 14350 4775
-F 0 "J101" H 14400 5892 50  0000 C CNN
+F 0 "J107" H 14400 5892 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 14400 5801 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 14350 4775 50  0001 C CNN
 F 3 "~" H 14350 4775 50  0001 C CNN
@@ -90,36 +90,12 @@ Wire Wire Line
 	14775 4075 14650 4075
 Text Label 13875 7825 0    44   ~ 0
 IOR_14
-Text Label 14775 7825 0    44   ~ 0
-IOR_15
 Text Label 13875 7725 0    44   ~ 0
 IOR_16
-Text Label 14775 7725 0    44   ~ 0
-IOR_17
 Text Label 13875 7625 0    44   ~ 0
 IOR_18
-Text Label 14775 7625 0    44   ~ 0
-IOR_19
 Text Label 13875 7525 0    44   ~ 0
 IOR_20
-Text Label 14775 7525 0    44   ~ 0
-IOR_21
-Wire Wire Line
-	14650 7525 14775 7525
-Wire Wire Line
-	14650 7625 14775 7625
-Wire Wire Line
-	14650 7725 14775 7725
-Wire Wire Line
-	14650 7825 14775 7825
-Wire Wire Line
-	14150 7525 13875 7525
-Wire Wire Line
-	14150 7625 13875 7625
-Wire Wire Line
-	14150 7725 13875 7725
-Wire Wire Line
-	14150 7825 13875 7825
 Text Label 14775 5275 0    44   ~ 0
 IOB_6
 Text Label 13875 5175 0    44   ~ 0
@@ -148,36 +124,6 @@ Text Label 14775 4675 0    44   ~ 0
 IOB_18
 Text Label 13875 4575 0    44   ~ 0
 IOB_19
-Wire Wire Line
-	14650 7925 14775 7925
-Wire Wire Line
-	14650 8025 14775 8025
-Wire Wire Line
-	14650 4775 14775 4775
-Wire Wire Line
-	14650 4875 14775 4875
-Wire Wire Line
-	14650 4975 14775 4975
-Wire Wire Line
-	14650 5075 14775 5075
-Wire Wire Line
-	14650 5175 14775 5175
-Wire Wire Line
-	14150 7925 13875 7925
-Wire Wire Line
-	14150 8025 13875 8025
-Wire Wire Line
-	14150 4775 13875 4775
-Wire Wire Line
-	14150 4875 13875 4875
-Wire Wire Line
-	14150 4975 13875 4975
-Wire Wire Line
-	14150 5075 13875 5075
-Wire Wire Line
-	14150 5175 13875 5175
-Text Label 15175 5625 0    44   ~ 0
-IOB_0
 Text Label 13875 5475 0    44   ~ 0
 IOB_1
 Text Label 14775 5475 0    44   ~ 0
@@ -188,22 +134,6 @@ Text Label 14775 5375 0    44   ~ 0
 IOB_4
 Text Label 13875 5275 0    44   ~ 0
 IOB_5
-Wire Wire Line
-	13875 5475 14150 5475
-Wire Wire Line
-	14150 5375 13875 5375
-Wire Wire Line
-	13875 5275 14150 5275
-Wire Wire Line
-	14650 5275 14775 5275
-Wire Wire Line
-	14650 5375 14775 5375
-Wire Wire Line
-	14650 5475 14775 5475
-Wire Wire Line
-	14650 5575 14775 5575
-Wire Wire Line
-	14650 5675 14775 5675
 Text Label 13875 5675 0    44   ~ 0
 IOL_20
 Text Label 14775 5675 0    44   ~ 0
@@ -212,15 +142,11 @@ Text Label 13875 5575 0    44   ~ 0
 IOL_22
 Text Label 14775 5575 0    44   ~ 0
 IOL_23
-Wire Wire Line
-	13875 5575 14150 5575
-Wire Wire Line
-	13875 5675 14150 5675
 $Comp
-L Connector_Generic:Conn_02x07_Odd_Even J102
+L Connector_Generic:Conn_02x07_Odd_Even J108
 U 1 1 5FDD3FB3
 P 14350 6575
-F 0 "J102" H 14400 7092 50  0000 C CNN
+F 0 "J108" H 14400 7092 50  0000 C CNN
 F 1 "Conn_02x07_Odd_Even" H 14400 7001 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 14350 6575 50  0001 C CNN
 F 3 "~" H 14350 6575 50  0001 C CNN
@@ -273,26 +199,6 @@ Text Label 14800 6775 0    44   ~ 0
 IOL_17
 Text Label 13875 6375 0    44   ~ 0
 IOL_8
-Wire Wire Line
-	13875 6375 14150 6375
-Wire Wire Line
-	13875 6475 14150 6475
-Wire Wire Line
-	13875 6575 14150 6575
-Wire Wire Line
-	13875 6675 14150 6675
-Wire Wire Line
-	13875 6775 14150 6775
-Wire Wire Line
-	14650 6375 14800 6375
-Wire Wire Line
-	14650 6475 14800 6475
-Wire Wire Line
-	14650 6575 14800 6575
-Wire Wire Line
-	14650 6675 14800 6675
-Wire Wire Line
-	14650 6775 14800 6775
 $Comp
 L Device:R R?
 U 1 1 5FE598B9
@@ -509,10 +415,10 @@ $EndComp
 Wire Wire Line
 	6575 10475 6575 10550
 $Comp
-L Connector_Generic:Conn_02x07_Odd_Even J103
+L Connector_Generic:Conn_02x07_Odd_Even J109
 U 1 1 5E51F8D2
 P 14350 7825
-F 0 "J103" H 14400 8342 50  0000 C CNN
+F 0 "J109" H 14400 8342 50  0000 C CNN
 F 1 "Conn_02x07_Odd_Even" H 14400 8251 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 14350 7825 50  0001 C CNN
 F 3 "~" H 14350 7825 50  0001 C CNN
@@ -557,8 +463,6 @@ Wire Wire Line
 	14150 6275 13600 6275
 Wire Wire Line
 	14650 6275 14800 6275
-Text Label 14775 7925 0    44   ~ 0
-IOR_13
 Text Label 13875 7925 0    44   ~ 0
 IOR_11
 Text Label 14775 8025 0    44   ~ 0
@@ -567,32 +471,8 @@ Text Label 13875 8025 0    44   ~ 0
 IOR_9
 Text Label 14775 4175 0    44   ~ 0
 IOR_8
-Wire Wire Line
-	14775 4175 14650 4175
-Wire Wire Line
-	14775 4275 14650 4275
-Wire Wire Line
-	14775 4375 14650 4375
-Wire Wire Line
-	14775 4475 14650 4475
-Wire Wire Line
-	14775 4575 14650 4575
-Wire Wire Line
-	14775 4675 14650 4675
 Text Label 13875 4175 0    44   ~ 0
 IOR_7
-Wire Wire Line
-	14150 4175 13875 4175
-Wire Wire Line
-	14150 4275 13875 4275
-Wire Wire Line
-	14150 4375 13875 4375
-Wire Wire Line
-	14150 4475 13875 4475
-Wire Wire Line
-	14150 4575 13875 4575
-Wire Wire Line
-	14150 4675 13875 4675
 Text Label 14775 4275 0    44   ~ 0
 IOR_6
 Text Label 14775 4375 0    44   ~ 0
@@ -1259,10 +1139,10 @@ F36 "ADC2_DCO" I R 5750 3025 50
 F37 "ADC2_DA" I R 5750 3125 50 
 $EndSheet
 $Comp
-L Connector:Conn_Coaxial J1
+L Connector:Conn_Coaxial J102
 U 1 1 5F70EB27
 P 2725 2775
-F 0 "J1" H 2950 2775 50  0000 C CNN
+F 0 "J102" H 2950 2775 50  0000 C CNN
 F 1 "Conn_Coaxial" H 3100 2775 50  0001 C CNN
 F 2 "Connector_Coaxial:SMB_Jack_Vertical" H 2725 2775 50  0001 C CNN
 F 3 " ~" H 2725 2775 50  0001 C CNN
@@ -1280,10 +1160,10 @@ Wire Wire Line
 Wire Wire Line
 	2925 2475 3550 2475
 $Comp
-L Connector:Conn_Coaxial J2
+L Connector:Conn_Coaxial J106
 U 1 1 5F48A9E1
 P 2725 4375
-F 0 "J2" H 2950 4375 50  0000 C CNN
+F 0 "J106" H 2950 4375 50  0000 C CNN
 F 1 "Conn_Coaxial" H 3100 4375 50  0001 C CNN
 F 2 "Connector_Coaxial:SMB_Jack_Vertical" H 2725 4375 50  0001 C CNN
 F 3 " ~" H 2725 4375 50  0001 C CNN
@@ -1301,10 +1181,10 @@ Wire Wire Line
 Wire Wire Line
 	2925 2875 3550 2875
 $Comp
-L Connector:Conn_Coaxial J3
+L Connector:Conn_Coaxial J104
 U 1 1 5F49016E
 P 2725 3575
-F 0 "J3" H 2950 3575 50  0000 C CNN
+F 0 "J104" H 2950 3575 50  0000 C CNN
 F 1 "Conn_Coaxial" H 3100 3575 50  0001 C CNN
 F 2 "Connector_Coaxial:SMB_Jack_Vertical" H 2725 3575 50  0001 C CNN
 F 3 " ~" H 2725 3575 50  0001 C CNN
@@ -1322,10 +1202,10 @@ Wire Wire Line
 Wire Wire Line
 	2925 3275 3550 3275
 $Comp
-L Connector:Conn_Coaxial J4
+L Connector:Conn_Coaxial J101
 U 1 1 5F495852
 P 2725 2375
-F 0 "J4" H 2950 2375 50  0000 C CNN
+F 0 "J101" H 2950 2375 50  0000 C CNN
 F 1 "Conn_Coaxial" H 3100 2375 50  0001 C CNN
 F 2 "Connector_Coaxial:SMB_Jack_Vertical" H 2725 2375 50  0001 C CNN
 F 3 " ~" H 2725 2375 50  0001 C CNN
@@ -1343,10 +1223,10 @@ Wire Wire Line
 Wire Wire Line
 	2925 3675 3550 3675
 $Comp
-L Connector:Conn_Coaxial J5
+L Connector:Conn_Coaxial J105
 U 1 1 5F49B9BF
 P 2725 3975
-F 0 "J5" H 2950 3975 50  0000 C CNN
+F 0 "J105" H 2950 3975 50  0000 C CNN
 F 1 "Conn_Coaxial" H 3100 3975 50  0001 C CNN
 F 2 "Connector_Coaxial:SMB_Jack_Vertical" H 2725 3975 50  0001 C CNN
 F 3 " ~" H 2725 3975 50  0001 C CNN
@@ -1364,10 +1244,10 @@ Wire Wire Line
 Wire Wire Line
 	2925 4075 3550 4075
 $Comp
-L Connector:Conn_Coaxial J6
+L Connector:Conn_Coaxial J103
 U 1 1 5F4A2041
 P 2725 3175
-F 0 "J6" H 2950 3175 50  0000 C CNN
+F 0 "J103" H 2950 3175 50  0000 C CNN
 F 1 "Conn_Coaxial" H 3100 3175 50  0001 C CNN
 F 2 "Connector_Coaxial:SMB_Jack_Vertical" H 2725 3175 50  0001 C CNN
 F 3 " ~" H 2725 3175 50  0001 C CNN
@@ -1385,10 +1265,32 @@ Wire Wire Line
 Wire Wire Line
 	2925 4475 3550 4475
 $Sheet
-S 9800 1550 2225 1700
+S 9800 1550 2000 2275
 U 5F420A26
 F0 "Sheet5F420A25" 50
 F1 "4ch_Dac.sch" 50
+F2 "DAC_FPGA_IO0" B L 9800 1675 50 
+F3 "DAC_FPGA_IO1" B L 9800 1775 50 
+F4 "DAC_FPGA_IO2" B L 9800 1875 50 
+F5 "DAC_FPGA_IO3" B L 9800 1975 50 
+F6 "DAC_FPGA_IO4" B L 9800 2075 50 
+F7 "DAC_FPGA_IO5" B L 9800 2175 50 
+F8 "DAC_FPGA_IO6" B L 9800 2275 50 
+F9 "DAC_FPGA_IO7" B L 9800 2375 50 
+F10 "DAC_FPGA_IO8" B L 9800 2475 50 
+F11 "DAC_FPGA_IO9" B L 9800 2575 50 
+F12 "DAC_FPGA_IO10" B L 9800 2675 50 
+F13 "DAC_FPGA_IO11" B L 9800 2775 50 
+F14 "DAC_FPGA_IO12" B L 9800 2875 50 
+F15 "DAC_FPGA_IO13" B L 9800 2975 50 
+F16 "#3.3V" B R 11800 1700 50 
+F17 "#2.5V" B R 11800 1825 50 
+F18 "#1.2V" B R 11800 1950 50 
+F19 "FLASH_MISO" O L 9800 3725 50 
+F20 "FLASH_MOSI" I L 9800 3625 50 
+F21 "FLASH_CLK" I L 9800 3525 50 
+F22 "FLASH_SS" I L 9800 3425 50 
+F23 "FLASH_~CRESET" I L 9800 3325 50 
 $EndSheet
 Wire Wire Line
 	5750 2350 6125 2350
@@ -1486,4 +1388,313 @@ Text Label 6125 5225 0    44   ~ 0
 ADC6_DCO
 Text Label 6125 5325 0    44   ~ 0
 ADC6_DA
+Text Label 13400 7525 0    44   ~ 0
+ADC1_CNV
+Text Label 15150 7525 0    44   ~ 0
+ADC1_CLK
+Text Label 15150 7625 0    44   ~ 0
+ADC1_DCO
+Text Label 13400 7625 0    44   ~ 0
+ADC1_DA
+Text Label 14775 7925 0    44   ~ 0
+IOR_13
+Text Label 14775 7825 0    44   ~ 0
+IOR_15
+Text Label 14775 7725 0    44   ~ 0
+IOR_17
+Text Label 14775 7625 0    44   ~ 0
+IOR_19
+Text Label 14775 7525 0    44   ~ 0
+IOR_21
+Wire Wire Line
+	13400 7525 14150 7525
+Wire Wire Line
+	13400 7625 14150 7625
+Wire Wire Line
+	13400 7725 14150 7725
+Wire Wire Line
+	13400 7825 14150 7825
+Wire Wire Line
+	13400 7925 14150 7925
+Wire Wire Line
+	13400 8025 14150 8025
+Wire Wire Line
+	14650 7525 15150 7525
+Wire Wire Line
+	14650 7625 15150 7625
+Wire Wire Line
+	14650 7725 15150 7725
+Wire Wire Line
+	14650 7825 15150 7825
+Wire Wire Line
+	14650 7925 15150 7925
+Wire Wire Line
+	14650 8025 15150 8025
+Text Label 15150 7825 0    44   ~ 0
+ADC2_CNV
+Text Label 13400 7825 0    44   ~ 0
+ADC2_CLK
+Text Label 13400 7725 0    44   ~ 0
+ADC2_DCO
+Text Label 15150 7725 0    44   ~ 0
+ADC2_DA
+Text Label 13400 7925 0    44   ~ 0
+ADC3_CNV
+Text Label 15150 7925 0    44   ~ 0
+ADC3_CLK
+Text Label 15150 8025 0    44   ~ 0
+ADC3_DCO
+Text Label 13400 8025 0    44   ~ 0
+ADC3_DA
+Text Label 13350 4475 0    44   ~ 0
+ADC4_CNV
+Text Label 15250 4475 0    44   ~ 0
+ADC4_CLK
+Text Label 13350 4375 0    44   ~ 0
+ADC4_DCO
+Text Label 15250 4375 0    44   ~ 0
+ADC4_DA
+Wire Wire Line
+	14650 4175 15250 4175
+Wire Wire Line
+	14650 4275 15250 4275
+Wire Wire Line
+	14650 4375 15250 4375
+Wire Wire Line
+	14650 4475 15250 4475
+Wire Wire Line
+	14650 4575 15250 4575
+Wire Wire Line
+	14650 4675 15250 4675
+Wire Wire Line
+	14650 4775 15250 4775
+Wire Wire Line
+	14650 4875 15250 4875
+Wire Wire Line
+	14650 4975 15250 4975
+Wire Wire Line
+	14650 5075 15250 5075
+Wire Wire Line
+	14650 5175 15250 5175
+Wire Wire Line
+	14650 5275 15250 5275
+Wire Wire Line
+	14650 5375 15250 5375
+Wire Wire Line
+	14650 5475 15250 5475
+Wire Wire Line
+	14650 5575 15250 5575
+Wire Wire Line
+	14650 5675 15250 5675
+Wire Wire Line
+	13350 4175 14150 4175
+Wire Wire Line
+	13350 4275 14150 4275
+Wire Wire Line
+	13350 4375 14150 4375
+Wire Wire Line
+	13350 4475 14150 4475
+Wire Wire Line
+	13350 4575 14150 4575
+Wire Wire Line
+	13350 4675 14150 4675
+Wire Wire Line
+	13350 4775 14150 4775
+Wire Wire Line
+	13350 4875 14150 4875
+Wire Wire Line
+	13350 4975 14150 4975
+Wire Wire Line
+	13350 5075 14150 5075
+Wire Wire Line
+	13350 5175 14150 5175
+Wire Wire Line
+	13350 5275 14150 5275
+Wire Wire Line
+	13350 5375 14150 5375
+Wire Wire Line
+	13350 5475 14150 5475
+Wire Wire Line
+	13350 5575 14150 5575
+Wire Wire Line
+	13350 5675 14150 5675
+Text Label 13350 4675 0    44   ~ 0
+ADC5_CNV
+Text Label 15250 4675 0    44   ~ 0
+ADC5_CLK
+Text Label 15250 4875 0    44   ~ 0
+ADC5_DCO
+Text Label 13350 4875 0    44   ~ 0
+ADC5_DA
+Text Label 13350 5475 0    44   ~ 0
+ADC6_CNV
+Text Label 15250 5475 0    44   ~ 0
+ADC6_CLK
+Text Label 13350 5375 0    44   ~ 0
+ADC6_DCO
+Text Label 15250 5375 0    44   ~ 0
+ADC6_DA
+Text HLabel 9450 1675 0    50   BiDi ~ 0
+DAC_FPGA_IO0
+Text HLabel 9450 1775 0    50   BiDi ~ 0
+DAC_FPGA_IO1
+Text HLabel 9450 1875 0    50   BiDi ~ 0
+DAC_FPGA_IO2
+Text HLabel 9450 1975 0    50   BiDi ~ 0
+DAC_FPGA_IO3
+Text HLabel 9450 2075 0    50   BiDi ~ 0
+DAC_FPGA_IO4
+Text HLabel 9450 2175 0    50   BiDi ~ 0
+DAC_FPGA_IO5
+Text HLabel 9450 2275 0    50   BiDi ~ 0
+DAC_FPGA_IO6
+Text HLabel 9450 2375 0    50   BiDi ~ 0
+DAC_FPGA_IO7
+Text HLabel 9450 2475 0    50   BiDi ~ 0
+DAC_FPGA_IO8
+Text HLabel 9450 2575 0    50   BiDi ~ 0
+DAC_FPGA_IO9
+Text HLabel 9450 2675 0    50   BiDi ~ 0
+DAC_FPGA_IO10
+Text HLabel 9450 2775 0    50   BiDi ~ 0
+DAC_FPGA_IO11
+Text HLabel 9450 2875 0    50   BiDi ~ 0
+DAC_FPGA_IO12
+Wire Wire Line
+	9450 1675 9800 1675
+Wire Wire Line
+	9450 1775 9800 1775
+Wire Wire Line
+	9450 1875 9800 1875
+Wire Wire Line
+	9450 1975 9800 1975
+Wire Wire Line
+	9450 2075 9800 2075
+Wire Wire Line
+	9450 2175 9800 2175
+Wire Wire Line
+	9450 2275 9800 2275
+Wire Wire Line
+	9450 2375 9800 2375
+Wire Wire Line
+	9450 2475 9800 2475
+Wire Wire Line
+	9450 2575 9800 2575
+Wire Wire Line
+	9450 2675 9800 2675
+Wire Wire Line
+	9450 2775 9800 2775
+Wire Wire Line
+	9450 2875 9800 2875
+Text HLabel 15250 5575 2    50   BiDi ~ 0
+DAC_FPGA_IO0
+Text HLabel 15250 5675 2    50   BiDi ~ 0
+DAC_FPGA_IO1
+Text HLabel 13350 5575 0    50   BiDi ~ 0
+DAC_FPGA_IO2
+Text HLabel 13350 5675 0    50   BiDi ~ 0
+DAC_FPGA_IO3
+Text HLabel 15250 6775 2    50   BiDi ~ 0
+DAC_FPGA_IO4
+Text HLabel 13700 6775 0    50   BiDi ~ 0
+DAC_FPGA_IO5
+Text HLabel 15250 6675 2    50   BiDi ~ 0
+DAC_FPGA_IO6
+Text HLabel 13700 6675 0    50   BiDi ~ 0
+DAC_FPGA_IO7
+Text HLabel 15250 6575 2    50   BiDi ~ 0
+DAC_FPGA_IO8
+Text HLabel 13700 6575 0    50   BiDi ~ 0
+DAC_FPGA_IO9
+Text HLabel 15250 6475 2    50   BiDi ~ 0
+DAC_FPGA_IO10
+Text HLabel 13700 6475 0    50   BiDi ~ 0
+DAC_FPGA_IO11
+Text HLabel 15250 6375 2    50   BiDi ~ 0
+DAC_FPGA_IO12
+Wire Wire Line
+	14650 6375 15250 6375
+Wire Wire Line
+	14650 6475 15250 6475
+Wire Wire Line
+	14650 6575 15250 6575
+Wire Wire Line
+	14650 6675 15250 6675
+Wire Wire Line
+	14650 6775 15250 6775
+Wire Wire Line
+	13700 6375 14150 6375
+Wire Wire Line
+	13700 6475 14150 6475
+Wire Wire Line
+	13700 6575 14150 6575
+Wire Wire Line
+	13700 6675 14150 6675
+Wire Wire Line
+	13700 6775 14150 6775
+Text HLabel 9450 2975 0    50   BiDi ~ 0
+DAC_FPGA_IO13
+Wire Wire Line
+	9450 2975 9800 2975
+Text HLabel 13700 6375 0    50   BiDi ~ 0
+DAC_FPGA_IO13
+$Sheet
+S 8500 5225 1250 1125
+U 604EFB11
+F0 "Sheet604EFB10" 50
+F1 "power.sch" 50
+F2 "USB_5V" I L 8500 5400 50 
+F3 "#3.3V" I R 9750 5450 50 
+F4 "#1.2V" I R 9750 5575 50 
+$EndSheet
+Text Label 8150 5400 0    44   ~ 0
+USB_5V
+Wire Wire Line
+	8500 5400 8150 5400
+Wire Wire Line
+	9750 5450 9950 5450
+Wire Wire Line
+	9750 5575 9950 5575
+Text Label 9950 5450 0    50   ~ 0
+#3.3V
+Text Label 9950 5575 0    50   ~ 0
+#1.2V
+Wire Wire Line
+	11800 1700 12000 1700
+Wire Wire Line
+	11800 1950 12000 1950
+Text Label 12000 1700 0    50   ~ 0
+#3.3V
+Text Label 12000 1950 0    50   ~ 0
+#1.2V
+Text HLabel 9600 3725 0    50   Output ~ 0
+FLASH_MISO
+Text HLabel 9600 3625 0    50   Input ~ 0
+FLASH_MOSI
+Text HLabel 9600 3525 0    50   Input ~ 0
+FLASH_CLK
+Text HLabel 9600 3425 0    50   Input ~ 0
+FLASH_SS
+Text HLabel 9600 3325 0    50   Input ~ 0
+FLASH_~CRESET
+Wire Wire Line
+	9800 3325 9600 3325
+Wire Wire Line
+	9800 3425 9600 3425
+Wire Wire Line
+	9800 3525 9600 3525
+Wire Wire Line
+	9800 3625 9600 3625
+Wire Wire Line
+	9800 3725 9600 3725
+Text HLabel 13350 5275 0    50   Output ~ 0
+FLASH_MISO
+Text HLabel 15250 5275 2    50   Input ~ 0
+FLASH_MOSI
+Text HLabel 15250 5175 2    50   Input ~ 0
+FLASH_CLK
+Text HLabel 13350 5175 0    50   Input ~ 0
+FLASH_SS
+Text HLabel 15250 5075 2    50   Input ~ 0
+FLASH_~CRESET
 $EndSCHEMATC
