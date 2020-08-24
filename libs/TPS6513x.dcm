@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS6513x
+D Positive and Negative Output DC-DC Converter
+F https://www.ti.com/lit/ds/symlink/tps65131.pdf?ts=1598271769388&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS65131
+$ENDCMP
+#
+#End Doc Library

@@ -20,8 +20,8 @@ F0 "Sheet5F3E1AE4" 50
 F1 "ADC_circuit.sch" 50
 F2 "IN+" I L 3250 2975 50 
 F3 "IN-" I L 3250 3100 50 
-F4 "V+" I R 4700 2700 50 
-F5 "V-" I R 4700 2600 50 
+F4 "V+" I R 4700 2600 50 
+F5 "V-" I R 4700 2700 50 
 F6 "VDDL" I R 4700 2900 50 
 F7 "OVDD" I R 4700 3000 50 
 F8 "CNV" I R 4700 3350 50 
@@ -139,12 +139,12 @@ F3 "IN-" I L 3250 4800 50
 F4 "V+" I R 4700 4325 50 
 F5 "V-" I R 4700 4425 50 
 F6 "VDDL" I R 4700 4525 50 
-F7 "OVDD" I R 4700 4625 50 
+F7 "OVDD" I R 4700 4725 50 
 F8 "CNV" I R 4700 5125 50 
 F9 "CLK" I R 4700 5225 50 
 F10 "DA" I R 4700 5425 50 
 F11 "DCO" I R 4700 5325 50 
-F12 "VDD" I R 4700 4725 50 
+F12 "VDD" I R 4700 4625 50 
 $EndSheet
 Text HLabel 4925 1700 2    50   Input ~ 0
 ADC1_CNV
@@ -259,4 +259,148 @@ F10 "DA" I R 4725 2000 50
 F11 "DCO" I R 4725 1900 50 
 F12 "VDD" I R 4725 1325 50 
 $EndSheet
+Text HLabel 975  700  0    50   BiDi ~ 0
+5V
+Text HLabel 975  800  0    50   BiDi ~ 0
+-5V
+Text HLabel 975  900  0    50   BiDi ~ 0
+2.5V
+Text HLabel 975  1000 0    50   BiDi ~ 0
+#2.5V
+Wire Wire Line
+	975  700  1200 700 
+Wire Wire Line
+	975  800  1200 800 
+Wire Wire Line
+	975  900  1200 900 
+Wire Wire Line
+	975  1000 1200 1000
+Text Label 1200 700  0    50   ~ 0
+5V
+Text Label 1200 800  0    50   ~ 0
+-5V
+Text Label 1200 900  0    50   ~ 0
+2.5V
+Text Label 1200 1000 0    50   ~ 0
+#2.5V
+Text Label 4900 875  0    50   ~ 0
+5V
+Text Label 4900 975  0    50   ~ 0
+-5V
+Text Label 4900 1100 0    50   ~ 0
+2.5V
+Text Label 4900 1200 0    50   ~ 0
+#2.5V
+Wire Wire Line
+	4725 875  4900 875 
+Wire Wire Line
+	4725 975  4900 975 
+Wire Wire Line
+	4725 1100 4900 1100
+Wire Wire Line
+	4725 1200 4900 1200
+Wire Wire Line
+	4725 1325 4900 1325
+Text Label 4900 1325 0    50   ~ 0
+5V
+Text Label 4875 2600 0    50   ~ 0
+5V
+Text Label 4875 2700 0    50   ~ 0
+-5V
+Text Label 4875 2900 0    50   ~ 0
+2.5V
+Text Label 4875 3000 0    50   ~ 0
+#2.5V
+Wire Wire Line
+	4700 2600 4875 2600
+Wire Wire Line
+	4700 2700 4875 2700
+Wire Wire Line
+	4700 2900 4875 2900
+Wire Wire Line
+	4700 3000 4875 3000
+Wire Wire Line
+	4700 2800 4875 2800
+Text Label 4875 2800 0    50   ~ 0
+5V
+Text Label 4875 4325 0    50   ~ 0
+5V
+Text Label 4875 4425 0    50   ~ 0
+-5V
+Text Label 4875 4625 0    50   ~ 0
+2.5V
+Text Label 4875 4725 0    50   ~ 0
+#2.5V
+Wire Wire Line
+	4700 4325 4875 4325
+Wire Wire Line
+	4700 4425 4875 4425
+Wire Wire Line
+	4700 4625 4875 4625
+Wire Wire Line
+	4700 4725 4875 4725
+Wire Wire Line
+	4700 4525 4875 4525
+Text Label 4875 4525 0    50   ~ 0
+5V
+Text Label 8225 1050 0    50   ~ 0
+5V
+Text Label 8225 1175 0    50   ~ 0
+-5V
+Text Label 8225 1300 0    50   ~ 0
+2.5V
+Text Label 8225 1425 0    50   ~ 0
+#2.5V
+Wire Wire Line
+	8050 1050 8225 1050
+Wire Wire Line
+	8050 1175 8225 1175
+Wire Wire Line
+	8050 1300 8225 1300
+Wire Wire Line
+	8050 1425 8225 1425
+Wire Wire Line
+	8050 1550 8225 1550
+Text Label 8225 1550 0    50   ~ 0
+5V
+Text Label 8225 2675 0    50   ~ 0
+5V
+Text Label 8225 2750 0    50   ~ 0
+-5V
+Text Label 8225 2850 0    50   ~ 0
+2.5V
+Text Label 8225 2925 0    50   ~ 0
+#2.5V
+Wire Wire Line
+	8050 2675 8225 2675
+Wire Wire Line
+	8050 2750 8225 2750
+Wire Wire Line
+	8050 2850 8225 2850
+Wire Wire Line
+	8050 2925 8225 2925
+Wire Wire Line
+	8050 3050 8225 3050
+Text Label 8225 3050 0    50   ~ 0
+5V
+Text Label 8200 4250 0    50   ~ 0
+5V
+Text Label 8200 4350 0    50   ~ 0
+-5V
+Text Label 8200 4550 0    50   ~ 0
+2.5V
+Text Label 8200 4650 0    50   ~ 0
+#2.5V
+Wire Wire Line
+	8025 4250 8200 4250
+Wire Wire Line
+	8025 4350 8200 4350
+Wire Wire Line
+	8025 4550 8200 4550
+Wire Wire Line
+	8025 4650 8200 4650
+Wire Wire Line
+	8025 4450 8200 4450
+Text Label 8200 4450 0    50   ~ 0
+5V
 $EndSCHEMATC

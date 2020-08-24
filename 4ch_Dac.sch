@@ -880,23 +880,23 @@ Text HLabel 1500 3850 0    50   BiDi ~ 0
 DAC_FPGA_IO13
 Wire Wire Line
 	1675 3850 1500 3850
-Text HLabel 950  700  0    50   BiDi ~ 0
+Text HLabel 10600 600  0    50   BiDi ~ 0
 #3.3V
-Text HLabel 950  800  0    50   BiDi ~ 0
+Text HLabel 10600 700  0    50   BiDi ~ 0
 #2.5V
-Text HLabel 950  900  0    50   BiDi ~ 0
+Text HLabel 10600 900  0    50   BiDi ~ 0
 #1.2V
 Wire Wire Line
-	950  700  1150 700 
+	10600 600  10800 600 
 Wire Wire Line
-	950  800  1150 800 
+	10600 700  10800 700 
 Wire Wire Line
-	950  900  1150 900 
-Text Label 1150 700  0    50   ~ 0
+	10600 900  10800 900 
+Text Label 10800 600  0    50   ~ 0
 #3.3V
-Text Label 1150 800  0    50   ~ 0
+Text Label 10800 700  0    50   ~ 0
 #2.5V
-Text Label 1150 900  0    50   ~ 0
+Text Label 10800 900  0    50   ~ 0
 #1.2V
 Text Label 4250 1000 0    50   ~ 0
 #3.3V
@@ -914,10 +914,6 @@ Text Label 8050 1125 0    50   ~ 0
 #3.3V
 Wire Wire Line
 	7900 1125 8050 1125
-Text Label 8075 3875 0    50   ~ 0
-#3.3V
-Wire Wire Line
-	7925 3875 8075 3875
 Text HLabel 1525 1525 0    50   Output ~ 0
 FLASH_MISO
 Text HLabel 1525 1425 0    50   Input ~ 0
@@ -938,6 +934,84 @@ Wire Wire Line
 	1675 1425 1525 1425
 Wire Wire Line
 	1675 1525 1525 1525
+Text Label 8125 1400 0    50   ~ 0
+#1.8V
+Wire Wire Line
+	7900 1350 8025 1350
+Wire Wire Line
+	8025 1350 8025 1400
+Wire Wire Line
+	8025 1450 7900 1450
+Wire Wire Line
+	8125 1400 8025 1400
+Connection ~ 8025 1400
+Wire Wire Line
+	8025 1400 8025 1450
+Text Label 8050 1225 0    50   ~ 0
+3.3V
+Wire Wire Line
+	8050 1225 7900 1225
+Text Label 8100 875  0    50   ~ 0
+5V
+Wire Wire Line
+	8100 875  7900 875 
+Text Label 8100 975  0    50   ~ 0
+-5V
+Wire Wire Line
+	8100 975  7900 975 
+Text Label 8075 3875 0    50   ~ 0
+#3.3V
+Wire Wire Line
+	7925 3875 8075 3875
+Text Label 8150 4150 0    50   ~ 0
+#1.8V
+Wire Wire Line
+	7925 4100 8050 4100
+Wire Wire Line
+	8050 4100 8050 4150
+Wire Wire Line
+	8050 4200 7925 4200
+Wire Wire Line
+	8150 4150 8050 4150
+Connection ~ 8050 4150
+Wire Wire Line
+	8050 4150 8050 4200
+Text Label 8075 3975 0    50   ~ 0
+3.3V
+Wire Wire Line
+	8075 3975 7925 3975
+Text Label 8125 3625 0    50   ~ 0
+5V
+Wire Wire Line
+	8125 3625 7925 3625
+Text Label 8125 3725 0    50   ~ 0
+-5V
+Wire Wire Line
+	8125 3725 7925 3725
+Text Label 10800 800  0    50   ~ 0
+#1.8V
+Text Label 10800 1200 0    50   ~ 0
+3.3V
+Text Label 10800 1000 0    50   ~ 0
+5V
+Text Label 10800 1100 0    50   ~ 0
+-5V
+Text HLabel 10600 800  0    50   BiDi ~ 0
+#1.8V
+Wire Wire Line
+	10600 800  10800 800 
+Text HLabel 10600 1000 0    50   BiDi ~ 0
+5V
+Wire Wire Line
+	10600 1000 10800 1000
+Text HLabel 10600 1100 0    50   BiDi ~ 0
+-5V
+Wire Wire Line
+	10600 1100 10800 1100
+Text HLabel 10600 1200 0    50   BiDi ~ 0
+3.3V
+Wire Wire Line
+	10600 1200 10800 1200
 Wire Bus Line
 	4625 4825 4625 6350
 Wire Bus Line
