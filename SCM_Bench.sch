@@ -1530,4 +1530,64 @@ Text Notes 2700 5625 0    157  ~ 31
 DACs
 Text Notes 5325 1475 0    157  ~ 31
 PSU
+$Comp
+L Connector:Conn_Coaxial J111
+U 1 1 611F1260
+P 6025 5725
+F 0 "J111" H 6250 5725 50  0000 C CNN
+F 1 "Conn_Coaxial" H 6400 5725 50  0001 C CNN
+F 2 "Connector_Coaxial:SMB_Jack_Vertical" H 6025 5725 50  0001 C CNN
+F 3 " ~" H 6025 5725 50  0001 C CNN
+	1    6025 5725
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J110
+U 1 1 611F126A
+P 6025 5075
+F 0 "J110" H 6250 5075 50  0000 C CNN
+F 1 "Conn_Coaxial" H 6400 5075 50  0001 C CNN
+F 2 "Connector_Coaxial:SMB_Jack_Vertical" H 6025 5075 50  0001 C CNN
+F 3 " ~" H 6025 5075 50  0001 C CNN
+	1    6025 5075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6120BD6A
+P 6025 5975
+F 0 "#PWR0102" H 6025 5725 50  0001 C CNN
+F 1 "GND" H 6100 5825 50  0000 R CNN
+F 2 "" H 6025 5975 50  0001 C CNN
+F 3 "" H 6025 5975 50  0001 C CNN
+	1    6025 5975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6025 5975 6025 5925
+$Comp
+L power:GND #PWR0101
+U 1 1 61224983
+P 6025 5375
+F 0 "#PWR0101" H 6025 5125 50  0001 C CNN
+F 1 "GND" H 6100 5225 50  0000 R CNN
+F 2 "" H 6025 5375 50  0001 C CNN
+F 3 "" H 6025 5375 50  0001 C CNN
+	1    6025 5375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6025 5275 6025 5375
+Wire Wire Line
+	6225 5075 6400 5075
+Text Label 6400 5075 0    50   ~ 0
+TRIG_IN
+Wire Wire Line
+	6225 5725 6400 5725
+Text Label 6400 5725 0    50   ~ 0
+TRIG_OUT
+Text Label 8400 2650 0    50   ~ 0
+TRIG_IN
+Text Label 8400 2850 0    50   ~ 0
+TRIG_OUT
 $EndSCHEMATC
