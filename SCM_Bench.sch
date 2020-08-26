@@ -5,13 +5,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 17
 Title "SCM Bench"
-Date "2020-03-04"
-Rev "1.1"
-Comp "LPP/CNRS"
-Comment1 ""
-Comment2 "CC-BY-SA"
-Comment3 "alexis.jeandet@member.fsf.org"
-Comment4 "Alexis Jeandet"
+Date "2020-08-26"
+Rev "1.0"
+Comp "LPP/CNRS  https://www.lpp.polytechnique.fr/?lang=en"
+Comment1 "CC-BY-SA"
+Comment2 "Khady Sarr <khady.sarr@lpp.polytechnique.fr>"
+Comment3 "Alexis Jeandet <alexis.jeandet@member.fsf.org>"
+Comment4 ""
 $EndDescr
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J107

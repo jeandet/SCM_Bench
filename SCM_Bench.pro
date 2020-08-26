@@ -1,4 +1,4 @@
-update=ven. 21 août 2020 17:19:21
+update=mer. 26 août 2020 11:01:46
 version=1
 last_client=kicad
 [general]
@@ -259,3 +259,13 @@ uViaDrill=0.1
 dPairWidth=0.186
 dPairGap=0.194
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=libs/template.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
